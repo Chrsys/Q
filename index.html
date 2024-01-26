@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<div id="loginSection">
+    <h1>Login</h1>
+    <form onsubmit="showPortfolio(); return false;">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required>
+        <button type="submit" class="login">View Portfolio</button>
+    </form>
+</div>
+
+<div id="portfolioSection" style="display: none;">
+    <h1>My Portfolio</h1>
+    <div id="profileImageContainer">
+        <img src="pexels-asad-photo-maldives-1266831" alt="Profile Picture" id="profileImage">
+    </div>
+    <p>Hello... my name is Atia <span id="portfolioName"></span>!</p>
+
+    <h2>About Me</h2>
+    <p>
+        My name is Atia Genesis and i'm 26 years of age .I was born on the 23 of May 1997.I recently completed a Certificate in Software Engineering
+        My interests include football,Running and Rugby. Basically it would be any physical sport or activity.
+        I am a passionate and dedicated junior developer with a strong foundation in web development. I have a keen interest in
+        creating responsive and user-friendly applications. My goal is to continue learning and growing in the ever-evolving
+        field of technology.My Dream job would be to lead a team that's making a change with the use of cutting edge technologies that are utilized
+        by millions.
+        What I hope to gain from this internship is the experience needed to work and associate with other workmates or colleagues 
+        and to experience the work environment and learn how to live with fellow workmates and colleagues.
+    </p>
+    
+        
+    
+    
+
+    <h2>Skills</h2>
+    <div class="project">
+    <ul>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>Python</li>
+        <li>SQL</li>
+        <li>Communication</li>
+        <li>Responsive Web Design</li>
+    </ul>
+    </div>
+
+    <h2>Projects</h2>
+    <div class="project">
+        <h3>Portfolio Website</h3>
+        <p>
+            Developed a personal portfolio website showcasing my skills, projects, and experiences. The site is responsive and
+            built using HTML, CSS, and JavaScript.
+        </p>
+    </div>
+
+    <div class="project">
+        <h3>Task Manager App</h3>
+        <p>
+            Created a task manager application using React.js. The app allows users to add, delete, and update tasks, providing
+            a seamless user experience.
+        </p>
+    </div>
+
+    <h2>Contact Information</h2>
+    <p>
+        Feel free to contact me through the following channels:
+        <br>
+        Email: atiagnesis96@gmail.com
+        
+
+    </p>
+</div>
+
+
+<script src="index.js"></script>
+</body>
+</html>
